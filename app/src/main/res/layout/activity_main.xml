@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="855dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whatsapp_image_2026_10_19_at_6_42_26_pm" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="333dp"
+        android:layout_height="562dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="253dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/__12___1_" />
+
+    <TextView
+        android:id="@+id/texthappy"
+        style="@style/texthappy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="14dp"
+        android:text="Happy"
+
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textBirthday"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textBirthday"
+        style="@style/texthappy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:text="@string/birthday"
+    android:textSize="70sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/imageView2"
+    app:layout_constraintTop_toBottomOf="@+id/texthappy" />
+
+    <TextView
+        android:id="@+id/textSabreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabreen"
+        android:textColor="#5D0BF0"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBirthday"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From toqa"
+        android:textColor="#E61515"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSabreen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
